@@ -1,0 +1,31 @@
+/* Fondo general */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Botones seleccionados */
+.btn-active {
+    background-color: #39FF14 !important;
+    color: black !important;
+    font-weight: bold;
+}
+
+/* Espaciado entre bloques */
+.container-fluid {
+    padding: 10px;
+}
+
+/* Altura mínima para sidebar */
+aside {
+    min-height: 500px;
+}
+
+/* Responsive: ajuste en móviles */
+@media (max-width: 768px) {
+    .col-md-3, .col-md-9 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

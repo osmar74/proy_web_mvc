@@ -10,7 +10,7 @@ Uso:
 Resultado esperado:
     Servidor corriendo en http://localhost:5000
 """
-from flask import Flask
+from flask import Flask, render_template
 
 # Inicializar la aplicación Flask
 app = Flask(__name__)
@@ -18,7 +18,7 @@ app = Flask(__name__)
 # Ruta de prueba
 @app.route('/')
 def index():
-    return '<h1 style="color: #39FF14; text-align: center; margin-top: 50px;">¡Hola Mundo! - proy_web_mvc</h1>'
+    return render_template('layouts/base.html')
 
 # Punto de entrada
 if __name__ == '__main__':
