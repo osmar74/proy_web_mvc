@@ -1,0 +1,36 @@
+﻿Diagrama de Flujo del Proyecto Web MVC
+Este diagrama de flujo detalla todas las fases y etapas para el desarrollo de nuestro proyecto web, desde la planificación inicial hasta la entrega final. Mantendremos este esquema actualizado para reflejar nuestro progreso.
+FASE 1: Planificación y Configuración Inicial
+* [x] ETAPA 1.1: Presentación del diagrama de flujo y explicación de la metodología.
+* [ ] ETAPA 1.2: Explicación de la arquitectura MVC y la estructura de archivos.
+* [ ] ETAPA 1.3: Configuración del entorno de desarrollo (Python, entorno virtual).
+* [ ] ETAPA 1.4: Creación de la carpeta del proyecto e inicialización de Git.
+* [ ] ETAPA 1.5: Conexión con un repositorio remoto en GitHub (explicación de pasos).
+FASE 2: Estructura del Proyecto y Vistas (HTML)
+* [ ] ETAPA 2.1: Creación de los archivos base de la plantilla (base.html).
+* [ ] ETAPA 2.2: Diseño y maquetación de los componentes de la vista (header.html, navbar.html, sidebar.html).
+* [ ] ETAPA 2.3: Creación del contenido dinámico (maincontent.html) para la página inicial.
+* [ ] ETAPA 2.4: Implementación de estilos CSS y Bootstrap para el diseño responsivo.
+* [ ] ETAPA 2.5: Prueba de la estructura HTML con datos estáticos.
+FASE 3: Lógica del Servidor (Python y Flask)
+* [ ] ETAPA 3.1: Instalación del framework web Flask.
+* [ ] ETAPA 3.2: Creación del archivo principal de la aplicación (app.py).
+* [ ] ETAPA 3.3: Creación de los controladores principales (controllers/home_controller.py).
+* [ ] ETAPA 3.4: Definición de rutas y lógica para renderizar las vistas iniciales.
+* [ ] ETAPA 3.5: Prueba del servidor local y renderización de las páginas.
+FASE 4: Base de Datos con CSV (Modelo)
+* [ ] ETAPA 4.1: Diseño del modelo de datos para usuarios.
+* [ ] ETAPA 4.2: Creación de la clase UserModel en models/user_model.py.
+* [ ] ETAPA 4.3: Implementación de métodos para leer, escribir y buscar en archivos CSV.
+* [ ] ETAPA 4.4: Creación de la base de datos CSV inicial (data/users.csv).
+FASE 5: Implementación de Autenticación y Autorización
+* [ ] ETAPA 5.1: Desarrollo del controlador de autenticación (controllers/auth_controller.py).
+* [ ] ETAPA 5.2: Implementación de las vistas de login, registro y restablecimiento de contraseña.
+* [ ] ETAPA 5.3: Conexión de las vistas y modelos para el proceso de autenticación.
+* [ ] ETAPA 5.4: Implementación de sesiones y gestión de roles/permisos.
+* [ ] ETAPA 5.5: Prueba completa del flujo de autenticación y acceso.
+FASE 6: Finalización y Documentación
+* [ ] ETAPA 6.1: Refactorización y limpieza del código.
+* [ ] ETAPA 6.2: Creación del archivo README.md con instrucciones del proyecto.
+* [ ] ETAPA 6.3: Presentación del proyecto final y su repositorio en GitHub.
+* [ ] ETAPA 6.4: Resumen y sugerencias para futuras mejoras.
