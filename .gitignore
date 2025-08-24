@@ -1,0 +1,53 @@
+ 
+# Entorno virtual
+venv/
+env/
+envs/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Archivos de desarrollo
+pip-log.txt
+.project
+.pydevproject
+.venv
+
+# Archivos de VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# Flask
+instance/
+.webassets-cache
